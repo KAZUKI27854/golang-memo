@@ -52,7 +52,7 @@ func main() {
 		       fmt.Println("その他")
 		}
 
-		// switch trueとすることで、case節の式に条件式が使えるようになり、利用範囲が広がる
+		// switch trueとすることで、case節の式に条件式が使えるようになり、利用範囲が広がる（trueは省略可能）
 		switch true {
 		case i == 0:
 			    fmt.Println("0")
